@@ -1,0 +1,65 @@
+
+.card-body {
+    padding: 15px;
+    background-color: #fff;
+    width: 212px;
+    height: 112;
+    display: block;
+    align-content: center;
+    box-shadow: 5px 10px #888888;
+    float: left;
+    margin: 30px;
+    }
+        
+    
+    .display-name {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e93939;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    }
+    
+    .button {
+    border: none;
+    box-shadow: none;
+    font-family: inherit;
+    background-color: transparent;
+    color: #007fa3;
+    font-size: 14px;
+    transition: 0.25s;
+    transition: all 0.5s;
+    cursor: pointer;
+    }
+    
+    .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+    
+    .button:hover span {
+    padding-left: 7px;
+    }
+    
+    .wrapper {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    
+    .image--cover {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center right;
+    object-position: center right;
+    }
