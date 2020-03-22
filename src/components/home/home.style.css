@@ -5,6 +5,7 @@ background: #fff;
 }
 
 .App-title {
+display: flex;    
 font-size: 36px;
 color: #007fa3;
 }
@@ -22,7 +23,13 @@ padding: 30px;
 
 .header {
 display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-content: center;
+flex-direction: column;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
 }

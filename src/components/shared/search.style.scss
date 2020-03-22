@@ -1,0 +1,35 @@
+.search-box {
+  width: 50vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  & .icon{
+    position: absolute;
+    margin-left: 15px;
+    z-index: 1;
+    color: #4f5b66;
+  }
+}
+
+.search{
+  height: 40px;
+  width: 100%;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  padding-right: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  &:focus{
+    color: #fff;
+    font-weight: bold
+  }
+}
+
+
